@@ -8,6 +8,8 @@ namespace C_3
 {
     internal class Kisi
     {
+        //private bu class disinda baska yerden ulasilmasini engeller
+        //internal olarak işaretlenen bir öğeye sadece tanımlandığı proje (assembly) içinden erişilebilir.
         public string Ad;
         public string Soyad;
         public int Yas;
